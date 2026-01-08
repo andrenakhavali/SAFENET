@@ -1,7 +1,7 @@
 # SAFENET – Repository (EU-CORDEX, PFT/Land Use, Soils, Figures)
 
 This repository contains the R scripts used for the **SAFENET** workflow to:
-1) process **EU-CORDEX** climate projections,  
+1) process **CHELSA** and **EU-CORDEX** climate projections,  
 2) derive **land use / PFT** fractions and forest indicators from Hoffmann et al. products (ORCHIDEE-compatible),  
 3) extract and package **soil** inputs (ISRIC / HWSD2), and  
 4) generate SAFENET **deliverable figures**.
@@ -161,6 +161,6 @@ install.packages(c(
 - `isric_soil_extraction.R`
 - `soil_data_processing.R`
 - `simulation_extend.R`
-- `fig1.R`
-- `fig2.R`
-- `fig4.R`
+- `GLOBAL_TEMP_SCENARIOS.R`
+- `SSP_SCENARIOS.R`
+- `ATMOSPHERIC_CO2.R`
