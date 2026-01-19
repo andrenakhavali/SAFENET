@@ -141,7 +141,7 @@ convert_units <- function(raster, variable, dataset) {
     # Convert precipitation from kg m⁻² s⁻¹ to mm/year
     # 1 kg m⁻² s⁻¹ = 1 mm/s (since 1 kg of water over 1 m² = 1 mm depth)
     # To convert to mm/year: multiply by seconds in a year
-    seconds_per_year <- 1
+    seconds_per_year <- 86400
     raster_converted <- raster * seconds_per_year
     cat(" PR: kg m⁻² s⁻¹ to mm/year\n")
   } else if(variable == "tas") {
